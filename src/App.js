@@ -16,9 +16,6 @@ function App() {
   const [percent1, setPercent1] = useState("");
   const [percent2, setPercent2] = useState("");
   const [percent3, setPercent3] = useState("");
-  const [calculatedPercent1, setCalculatedPercent1] = useState("");
-  const [calculatedPercent2, setCalculatedPercent2] = useState("");
-  const [calculatedPercent3, setCalculatedPercent3] = useState("");
 
   return (
     <div className="App">
