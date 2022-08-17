@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { useLocation, useNavigate } from "react-router-dom";
+import {  useNavigate } from "react-router-dom";
 import { DataContext } from "../App";
 
 const Step1 = (props) => {
