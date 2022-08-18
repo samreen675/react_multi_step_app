@@ -27,9 +27,7 @@ function App() {
         percent1, setPercent1,
         percent2 ,setPercent2,
         percent3, setPercent3,
-        // calculatedPercent1, setCalculatedPercent1,
-        // calculatedPercent2 ,setCalculatedPercent2,
-        // calculatedPercent3, setCalculatedPercent3
+        
       }}>
           <Router>
         <Routes>
