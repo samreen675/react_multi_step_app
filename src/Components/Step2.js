@@ -4,8 +4,7 @@ import { DataContext } from "../App";
 
 const Step1 = (props) => {
   const navigate = useNavigate();
-  // const location = useLocation();
-  // console.log(location);
+  
   const value = useContext(DataContext);
   var totalValue = (value.percent / 100) * value.totalAmount;
   return (
