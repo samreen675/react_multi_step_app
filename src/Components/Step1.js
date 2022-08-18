@@ -4,16 +4,10 @@ import { DataContext } from "../App";
 
 const Step1 = (props) => {
   const navigate = useNavigate();
-  // const [totalAmount, setTotalAmount] = useState(" ");
-  // const [percent, setPercent] = useState(" ");
-  // const [totalValue, setTotalValue] = useState(" ");
+  
   const value = useContext(DataContext);
   console.log(value);
-  // useEffect(()=>{
-  //   setTotalAmount(totalAmount)
-  //   setPercent(percent)
-  //   setTotalValue(totalValue)
-  // },[totalAmount, totalValue, percent])
+  
   return (
     <>
       {/* {value.value} */}
